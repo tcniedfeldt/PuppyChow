@@ -1,18 +1,134 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <title>Puppy Chow</title>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> 
+      <link type="text/css" rel="stylesheet" href="./pages/custom.css">
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
 
     <body>
+       <nav>
+    	<div class="nav-wrapper">
+      		<a href="#!" class="brand-logo">.          Puppy Chow</a>
+      		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      		<ul class="right hide-on-med-and-down">
+        		<li><a href="index.html">Home</a></li>
+        		<li><a href="./pages/reviews.html">Reviews</a></li>
+        		<li><a href="./pages/contact.html">Contact Us</a></li>
+      		</ul>
+      		<ul class="side-nav" id="mobile-demo">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="./pages/reviews.html">Reviews</a></li>
+                        <li><a href="./pages/contact.html">Contact Us</a></li>
+      	  	</ul>
+    	</div>
+      </nav>
+   
+    <div class="center-align">
+        <h1>Welcome to Puppy Chow!</h1>
+        <p>Cooking made easy... for imbeciles.</p>  
+        <!--The Gridbox-->
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s6 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="./pages/images/pbj.png">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+		<p>Peanut Butter and Jelly Sandwich</p>
+            </div>
+            <div class="card-action">
+
+              <a href="./pages/recipes/recipe1.html">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="./pages/images/oreo.png">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+	      <p>Oreos and Milk</p>
+            </div>
+            <div class="card-action">
+              <a href="./pages/recipes/recipe2.html">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     <div class="row">
+        <div class="col s6 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="./pages/images/ramen.png"/>
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+	      <p>Top Ramen</p>
+            </div>
+            <div class="card-action">
+              <a href="./pages/recipes/recipe3.html">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="./pages/images/hotpocket.png">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>Hot Pocket</p>
+            </div>
+            <div class="card-action">
+              <a href="./pages/recipes/recipe4.html">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
+
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">CS 260 Creative Project</h5>
+                <p class="grey-text text-lighten-4">Thomas Niedfeldt and Kevin Thompson's creative project!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/tcniedfeldt/PuppyChow">Github Repository</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            </div>
+          </div>
+        </footer>
   </html>
